@@ -1,0 +1,48 @@
+body {
+   background-color: #F5FFFA;
+}
+.centre {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+#wall {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 10px;
+}
+.note{
+   display: block;
+   width: 100%;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   border: 2px solid black;
+   background-color: white;
+   padding: 10px;
+}
+a {
+   color: black;
+   font-variant: small-caps;
+}
+a:hover {
+   color: firebrick;
+   text-decoration: none;
+}
+.scrollup {
+   width: 40px;
+   height: 40px;
+   opacity: 0.3;
+   position: fixed;
+   bottom: 50px;
+   right: 50%;
+   display: none;
+   text-indent: -9999px;
+   background: url('icon_top.png') no-repeat;
+}
+h1,
+h2,
+h3 {
+   text-align: left;
+}
